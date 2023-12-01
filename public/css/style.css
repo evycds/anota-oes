@@ -1,0 +1,36 @@
+html,
+body {
+  height: 100%;
+}
+
+.btn-sair{
+    cursor: pointer;
+}
+
+.btn-sair:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.color-stripe {
+    background-color: #3498db;
+    width: 10px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.card {
+    position: relative;
+}
+
+.card-content {
+    padding-left: 20px;
+}
+
+.card-body{
+    margin-left: 15px;
+}
